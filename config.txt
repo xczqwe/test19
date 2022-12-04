@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxe93caf01ef48fc87",
+# 公众号appSecret
+"app_secret": "993014eb9104655393be7ea1185c650c",
+# 模板消息id
+"template_id": "j9EfAOZwGhYlVRn27AyvpfVZmP4ypT-Au2M9T3aOQ1I",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oOJYX6CnWtP1fYVYqx_YUrPGxbN0","oOJYX6MfGyP145H-6iSLtf10705c"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "78da103153874d179797cadcc0f3ef5c",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "保定市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "小吕", "birthday": "2002-09-12"},
+# 生日2
+"birthday2": {"name": "小桐", "birthday": "2003-05-12"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2022-08-19",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "在见不到的日子里，我们要好好的爱对方",
+# 金句英文
+"note_en": "In the days when we can't see each other, we have to love each other well"
+}
